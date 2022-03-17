@@ -10,9 +10,39 @@
     margin-bottom: 20px;
     }
 
+.container {
+        background-color: blue;
+    }
+
+
 .firstbody {
     background-color: #cfba83;
     height: 500px;
     margin-bottom: 20px;
+}
+
+.rettangolo {
+    height: 100px;
+    background-color: lightblue;
+    margin-bottom: 30px ;
+
+}
+.col-left {
+    background-color: lightblue;
+    float: left;
+    
+
+}
+
+.col-middle {
+    background-color: lightblue;
+    float: left;
+    
+
+}
+
+.col-right {
+    background-color: lightblue;
+    float: left;
 }
 
