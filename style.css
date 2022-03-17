@@ -24,25 +24,47 @@
 .rettangolo {
     height: 100px;
     background-color: lightblue;
-    margin-bottom: 30px ;
+    margin-bottom: 20px ;
 
 }
 .col-left {
     background-color: lightblue;
     float: left;
-    
+    height: 500px;
+    width: calc(30% - 20px);
+    margin-right: 20px;
 
 }
 
 .col-middle {
     background-color: lightblue;
     float: left;
-    
+    height: 500px;
+    width: calc(40% - 40px);
+    margin-right: 20px;
+    margin-left: 20px;
 
 }
 
 .col-right {
     background-color: lightblue;
     float: left;
+    height: 500px;
+    width: calc(30% - 20px);
+    margin-left: 20px;
+    
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer {
+    background-color: violet;
+    height: 150px;
+    margin-top: 20px;
+
 }
 
